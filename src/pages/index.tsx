@@ -29,6 +29,7 @@ export default function Home({product}: HomeProps) {
             <SubscriberButton priceId={product.priceId}/>
 
           </section>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/images/avatar.svg" alt="Girl coding" />
         
         </main>
